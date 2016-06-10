@@ -39,7 +39,7 @@ Git push origin mybranchname
 
 # Git add:
 
-git add -A stages All (mixture of ‘.’ And ‘-u’)
+git add --a stages All (mixture of ‘.’ And ‘-u’)
 
 git add . stages new and modified, without deleted
 
@@ -80,3 +80,15 @@ git push remotename master
 
 git pull remotename master
 
+
+# Issues
+
+
+# 1)
+Your branch and 'origin/master' have diverged,and have 3 and 8 different commits each, respectively.
+
+(use "git pull" to merge the remote branch into yours)
+
+solution
+git fetch origin
+git reset --hard origin/master
