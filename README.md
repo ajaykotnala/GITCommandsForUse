@@ -84,7 +84,7 @@ git pull remotename master
 # Issues
 
 1)
-Your branch and 'origin/master' have diverged,and have 3 and 8 different commits each, respectively.
+Your branch and 'origin/master' have diverged,and have x and xx different commits each, respectively.
 
 (use "git pull" to merge the remote branch into yours)
 
