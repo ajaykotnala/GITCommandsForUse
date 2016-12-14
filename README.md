@@ -4,6 +4,12 @@ git commands for hack
 
 # Git basics:
 
+
+# Git remove or delete node_module directory.
+Rm -r folderName
+rm -r node_module (into the root directory)
+
+
 # Git UndoLast Push
 
 First you need to determine the revision ID(SHA ID) of the last known commit. You can use HEAD^ or HEAD~{1} if you know you need to reverse exactly one commit.
