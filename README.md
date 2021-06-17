@@ -103,9 +103,12 @@ git reset --hard origin/master
 # Branch diverged
 
 if you see message like this
+
 Your branch and 'origin/test-branch' have diverged,
+
 and have 2 and 204 different commits each, respectively.
-  (use "git pull" to merge the remote branch into yours)
+
+(use "git pull" to merge the remote branch into yours)
 
 and you want to delete all your commits and get it back to test-branch 
 
